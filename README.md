@@ -4,3 +4,5 @@
 echo -e "\e[33m\e[0m"
 
 ##we need to copy confi file 
+
+>/tmp/roboshop.log
