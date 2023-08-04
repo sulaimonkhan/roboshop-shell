@@ -21,7 +21,7 @@ go mod init dispatch &>>/tmp/roboshop.log
 go get &>>/tmp/roboshop.log
 go build &>>/tmp/roboshop.log
 
-echo -e "\e[33m Download The Dependencies\e[0m"
+echo -e "\e[33m Setup Systend Service\e[0m"
 cp /root/roboshop-shell/dispatch.service /etc/systemd/system/dispatch.service &>>/tmp/roboshop.log
 
 echo -e "\e[33m Start Dispatch Service\e[0m"
