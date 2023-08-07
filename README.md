@@ -7,4 +7,4 @@ echo -e "\e[33m\e[0m"
 
 >/tmp/roboshop.log , 2>/tmp/error.log , &>>/tmp/roboshop.log
 
-$component
+1 .$component, 2.color="\e[33m"="${color} 3. nocolor="\e[0m"= ${nocolor}" 
