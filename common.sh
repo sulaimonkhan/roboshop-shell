@@ -29,7 +29,7 @@ nodejs () {
   echo -e "${color} Install NodeJS Dependencies ${nocolor}"
   npm install &>>$log_file
 
-  echo -e "${color} Setup Systend Service ${nocolor}"
+  echo -e "${color} Setup Systemd Service ${nocolor}"
   cp /root/roboshop-shell/$component.service /etc/systemd/system/$component.service &>>$log_file
 
   echo -e "${color} Start $component Service ${nocolor}"
