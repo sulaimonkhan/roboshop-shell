@@ -12,3 +12,7 @@ log_file=/tmp/roboshop.log
 &>>$log_file
 
 app_path="/app" = ${app_path}
+
+nodejs () {
+    all the content paste here common.sh (file)
+}
