@@ -16,3 +16,5 @@ app_path="/app" = ${app_path}
 nodejs () {
     all the content paste here common.sh (file)
 }
+
+git reset --hard it will show password payment.service
