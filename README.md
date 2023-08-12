@@ -18,3 +18,9 @@ nodejs () {
 }
 
 git reset --hard it will show password payment.service
+
+mysql password = Roboshop@1
+rabbitmq password = roboshop123
+
+
+ 
