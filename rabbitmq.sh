@@ -17,7 +17,7 @@ systemctl enable rabbitmq-server &>>/tmp/roboshop.log
 systemctl restart rabbitmq-server &>>/tmp/roboshop.log
 stat_check $?
 
-echo -e "\e[33m  Add RabbitMQ Application User \e[0m"
+echo -e " ${color}  Add RabbitMQ Application User ${nocolor} "
 rabbitmqctl add_user roboshop $1 &>>/tmp/roboshop.log
 rabbitmqctl set_permissions -p / roboshop ".*" ".*" ".*" &>>/tmp/roboshop.log
 stat_check $?
