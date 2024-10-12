@@ -14,7 +14,7 @@ cd /app
 unzip /tmp/user.zip
 
 cd /app
-npm insatll
+npm install
 
 systemctl daemon-reload
 systemctl enable user
