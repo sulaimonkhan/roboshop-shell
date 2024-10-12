@@ -20,4 +20,4 @@ npm install
 
 dnf install mongodb-mongosh -y
 
-mongosh --host 172.31.20.140 </app/db/master-data.js
+mongosh --host 172.31.22.127 </app/db/master-data.js
